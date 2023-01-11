@@ -6,8 +6,16 @@ feeds:
     branch: master
 packages:
   - luci-app-mwan3
-
-
+  - luci-app-netdata
+  - luci-app-openclash
+  - luci-app-upnp
+  - luci-app-ttyd
+  - luci-app-ddns
+  - luci-app-passwall
+  - luci-app-ssr-plus
+  - luci-app-wireguard
+  - luci-app-macvlan
+  - luci-app-mwan3
 
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
